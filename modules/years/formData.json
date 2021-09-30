@@ -1,12 +1,12 @@
 {
     "formName": "Years",
-    "filterColumns":["name"],
-    "uniqueColumns": [],
+    "filterColumns":["year"],
+    "uniqueColumns": ["year"],
     "entityName": "years",
     "formItemList": [
       {
-        "name": "name",
-        "type": "input",
+        "name": "year",
+        "type": "inputNumber",
         "required": true
       }
     ]

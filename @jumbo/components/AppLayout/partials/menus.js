@@ -56,10 +56,40 @@ const dashboardsMenus = [
     link: '/years',
   },
   {
+    name: <IntlMessages id={'pages.language'} />,
+    type: 'item',
+    icon: <Event />,
+    link: '/language',
+  },
+  {
+    name: <IntlMessages id={'pages.exam'} />,
+    type: 'item',
+    icon: <Event />,
+    link: '/exam',
+  },
+  {
     name: <IntlMessages id={'pages.papers'} />,
     type: 'item',
     icon: <Pages />,
-    link: '/paper',
+    link: '/papers',
+  },
+  {
+    name: <IntlMessages id={'pages.unsrruct'} />,
+    type: 'item',
+    icon: <Pages />,
+    link: '/ocr',
+  },
+  {
+    name: <IntlMessages id={'pages.srruct'} />,
+    type: 'item',
+    icon: <Pages />,
+    link: '/structures',
+  },
+  {
+    name: <IntlMessages id={'pages.compair'} />,
+    type: 'item',
+    icon: <Pages />,
+    link: '/compare',
   },
 ];
 
